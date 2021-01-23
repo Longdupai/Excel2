@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { ExcelInputComponent } from './components/excel-input/excel-input.component';
+import { ExcelTableComponent } from './components/excel-table/excel-table.component';
+import { ExcelFooterComponent } from './components/excel-footer/excel-footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavBarComponent,
+    ExcelInputComponent,
+    ExcelTableComponent,
+    ExcelFooterComponent
   ],
   imports: [
     BrowserModule,

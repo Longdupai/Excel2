@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "newExcel"
+    }
+  },
+  "defaultProject": "newExcel",
+  "cli": {
+    "analytics": "40acdc49-0292-4cf3-8ab7-83f7aec58a77"
+  }
 }
